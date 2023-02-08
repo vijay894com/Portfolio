@@ -1,0 +1,182 @@
+*
+{
+margin:0;
+}
+
+body
+{
+    background-color:rgb(16 20 2);
+
+}
+.header
+{
+    position: relative;
+  padding: 20px 40px 30px 40px;
+  /* background-color: coral; */
+  display: flex;
+  justify-content:space-between;
+}
+
+.img-icon img
+{
+    border-radius: 20px;
+    width: 87px;
+    height: 53px;
+}
+
+.nav-links
+ {
+    display: flex;
+}
+
+
+.nav-items
+{
+
+
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 20px;
+    padding:15px 5px 5px 10px;
+}
+
+.nav-items a
+{
+    text-decoration: none;
+    color:white
+}
+
+.nav-items a:hover
+{
+    color: gray;
+}
+
+
+.main
+{
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    /* background-color: coral; */
+}
+
+.name-details
+{
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  padding: 40px 60px 0px 130px;
+}
+
+.name-details .name
+{
+  font-size: 18px;
+  color: white;
+}
+
+.main p
+{
+    padding-bottom: 20px;
+    color:rgb(230, 233, 53);
+}
+
+.main p:nth-child(1)
+{
+    color:brown
+}
+.main .about
+{
+    font-size: 30px;
+    padding-left: 130px;
+}
+
+.about-me,.contact,.education
+{
+    display: flex;
+    flex-direction: row;
+    line-height: 1.3em;
+    font:'Times New Roman', Times, serif;
+    padding-left: 130px;
+    padding-right: 120px;
+    font-size: 17px;
+    padding-bottom: 50px;
+    color:rgb(205, 241, 75);
+}
+.about-me div:nth-child(1)
+{
+ flex-shrink: 1;
+}
+
+.social-media  img
+{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 40px;
+}
+
+.social-media  img 
+{
+    padding-bottom: 20px;
+}
+
+.about-me p
+{
+    color:rgb(205, 241, 75);
+    font: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+
+.about-me
+{
+    color:rgb(205, 241, 75);
+}
+
+.about-me h1,.contact h1,.education h1
+{
+    padding-bottom: 20px;
+    color:crimson;
+    font: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.about-me h4 
+{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color:rgb(205, 241, 75);
+    font: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.skillSet
+{
+    list-style-type: none;
+ display: grid;
+ grid-template-columns: repeat(2, minmax(140px, 200px));
+ gap:0px 10px;   
+}
+
+
+.skillSet li::before
+{
+ content:"▹";
+}
+
+.social a
+{
+  list-style-type: none;
+  color:rgb(238, 245, 245);
+  text-decoration: none;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+
+.coll
+{
+    color:rgb(238, 245, 245);
+}
+
+.footer p
+{
+    color:rgb(238, 245, 245);
+    text-align: center;
+    padding-bottom: 20px;
+}
