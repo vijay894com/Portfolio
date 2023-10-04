@@ -491,6 +491,68 @@ font-family: 'Roboto Mono', monospace;
     }
 }
 
+@media only screen and (max-width:400px) {
+    .header {
+        width: 62%;
+        padding: 1.5em 0 0em 35px;
+    }
+
+    #name {
+        top: 110px;
+        left: 35px;
+        width: 70%;
+    }
+
+    .navbar ul {
+        display: block;
+    }
+
+    #head h2 {
+        font-size: 16px;
+    }
+
+    #head span {
+        font-size: 13px;
+    }
+
+    .text {
+        width: 80%;
+    }
+
+    .header span {
+        font-size: 16px;
+    }
+
+    .navbar ul li {
+        font-size: 12px;
+    }
+
+    .about-me {
+        display: block;
+        margin: auto;
+        width: 100%;
+        width: 90%;
+        margin-left: 28px;
+    }
+
+    .img img {
+        width: 205px;
+        height: 120px;
+    }
+
+    .text {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .about-me .img {
+        margin: 0px;
+    }
+
+    .about-me a {
+        margin-left: 28%;
+    }
+
 /* @media only screen and (min-width: 195px) {
      .header{
         /* width: 90%; */
